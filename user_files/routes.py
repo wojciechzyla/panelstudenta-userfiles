@@ -12,6 +12,11 @@ import shutil
 from PIL import Image
 
 
+@app.route("/", methods=['GET'])
+def test_home():
+    return "IT IS WORKING"
+
+
 @app.route("/upload/<userid>", methods=['POST'])
 @is_authenticated
 def upload_file(userid):
