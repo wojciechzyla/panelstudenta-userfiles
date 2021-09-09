@@ -18,7 +18,7 @@ def test_home():
 
 
 @app.route("/test", methods=['GET'])
-def test_home():
+def test_t():
     return "IT IS TEST"
 
 
