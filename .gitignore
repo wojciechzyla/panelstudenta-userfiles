@@ -1,5 +1,8 @@
 .env
 **/.idea
 **/__pycache__
-user_files_storage/
+*.png
+*.jpg
+*.pdf
+*.jpeg
 panelstudenta_user_files_env
