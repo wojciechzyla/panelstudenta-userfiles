@@ -17,6 +17,11 @@ def test_home():
     return "IT IS WORKING"
 
 
+@app.route("/test", methods=['GET'])
+def test_home():
+    return "IT IS TEST"
+
+
 @app.route("/upload/<userid>", methods=['POST'])
 @is_authenticated
 def upload_file(userid):
